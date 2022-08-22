@@ -2,6 +2,7 @@
 ## Envio de emails via backend
 
 ### Email
+```
 {
     "fromEmail" : "nome@dominio.com",
     "fromName" : "Nome",
@@ -11,3 +12,4 @@
     "body" : "Meu conteúdo do email com <strong>palavra forte</strong> destacada.",
     "contentType" : "text/html"
 }
+```
