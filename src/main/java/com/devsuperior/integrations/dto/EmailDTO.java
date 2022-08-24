@@ -3,7 +3,9 @@ package com.devsuperior.integrations.dto;
 import java.io.Serializable;
 
 public class EmailDTO implements Serializable {
-    private String fromEmail;
+
+	private static final long serialVersionUID = 1L;
+	private String fromEmail;
     private String fromName;
     private String replayTo;
     private String to;
